@@ -25,7 +25,7 @@ class Queue():
         return self.items[0]
 
 
-queue1 = Queue(capacity=5)
+queue1 = Queue(capacity=6)
 queue1.enqueue(1)
 
 queue1.enqueue(2)
